@@ -7,12 +7,16 @@
 {{> layout/nav}}
 
 <div class="container">
-    <h1 class="pt-md-5 pb-md-5">Bienvenue au Combat</h1>
+    <h1 class="pt-md-5 pb-md-5">Bienvenue dans l'arène</h1>
 
     <div class="row">
-        <img  src="/chen.png" class="col-md-2"/>
-        <div class="col-md-8"></div>
-        <img  src="/chen.png" class="col-md-2" style="margin-top: 50px;"/>
+        {{#fighter01}}
+        <img  src="{{sprites.back_default}}" class="col-md-2"/>
+        {{/fighter01}}
+        <div class="col-md-4"></div>
+        {{#fighter02}}
+        <img  src="{{sprites.front_default}}" class="col-md-2" style="margin-top: 50px;"/>
+        {{/fighter02}}
     </div>
 
     <div class="row pt-md-5 pb-md-5" style="margin-top: 40px !important; border: 1px solid grey; border-radius: 10px;">

@@ -7,6 +7,5 @@ import com.ifi.tp.trainers.bo.Trainer;
 public interface TrainerService {
 
     List<Trainer> getAllTrainers();
-
     Trainer getTrainer(String name);
 }

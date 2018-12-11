@@ -14,7 +14,6 @@ import org.springframework.web.client.RestTemplate;
 public class PokemonServiceImpl implements PokemonService {
 
     private RestTemplate restTemplate;
-
     private String pokemonServiceUrl;
 
     @Autowired
