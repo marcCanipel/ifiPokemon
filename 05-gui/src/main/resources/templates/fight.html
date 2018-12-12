@@ -10,7 +10,7 @@
     <h1 class="pt-md-5 pb-md-5">Bienvenue dans l'arène</h1>
 
     <div class="row">
-        {{#trainer01.team}}
+        {{#trainer01}}
         <div class="col-md-2" style="margin-top: 40px !important; border: 1px solid grey; border-radius: 10px;">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>Base stats : Level: {{level}} </b>
@@ -21,11 +21,11 @@
             </ul>
         </div>
         <img  src="{{type.sprites.back_default}}" class="col-md-2"/>
-        {{/trainer01.team}}
+        {{/trainer01}}
     </div>
 
     <div class="row">
-        {{#trainer02.team}}
+        {{#trainer02}}
         <div class="col-md-2" style="margin-top: 40px !important; border: 1px solid grey; border-radius: 10px;">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>Base stats : Level: {{level}} </b>
@@ -36,7 +36,7 @@
             </ul>
         </div>
         <img  src="{{type.sprites.front_default}}" class="col-md-2"/>
-        {{/trainer02.team}}
+        {{/trainer02}}
     </div>
 
 

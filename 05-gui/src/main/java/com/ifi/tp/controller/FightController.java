@@ -30,8 +30,8 @@ public class FightController {
         modelAndView.addObject("fighter01", pokemonService.getPokemonType(id_fighter01));
         modelAndView.addObject("fighter02", pokemonService.getPokemonType(id_fighter02));
 
-        modelAndView.addObject("trainer01", trainerService.getTrainer("Misty"));
-        modelAndView.addObject("trainer02", trainerService.getTrainer("Ash"));
+        modelAndView.addObject("trainer01", trainerService.getTrainer("Misty").getTeam().get(0));
+        modelAndView.addObject("trainer02", trainerService.getTrainer("Ash").getTeam().get(0));
 
 
 
