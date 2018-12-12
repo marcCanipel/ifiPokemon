@@ -14,14 +14,24 @@ public class FightController {
     @Autowired
     private PokemonService pokemonService;
 
+    @Autowired
+    private TrainerService trainerService;
+
 
     @GetMapping("/fight")
     ModelAndView index(){
         var modelAndView = new ModelAndView("fight");
-        //var modelAndView2 = new ModelAndView("fight");
 
-        modelAndView.addObject("fighter01", pokemonService.getPokemonType(45));
-        modelAndView.addObject("fighter02", pokemonService.getPokemonType(59));
+        int id_fighter01 = trainerService.getTrainer("Misty").getTeam().get(0).getType().getId();
+        int id_fighter02 = trainerService.getTrainer("Ash").getTeam().get(0).getType().getId();
+
+        modelAndView.addObject("fighter01", pokemonService.getPokemonType(id_fighter01));
+        modelAndView.addObject("fighter02", pokemonService.getPokemonType(id_fighter02));
+
+//        modelAndView.addObject("trainer01", trainerService);
+//        modelAndView.addObject("trainer02", trainerService);
+
+        //System.out.println(trainerService.getTrainer("Ash").getTeam().get(0));
 
         return modelAndView;
     }

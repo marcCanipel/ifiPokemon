@@ -17,7 +17,6 @@ public class TrainerController {
     @GetMapping("/trainers")
     ModelAndView index(){
         var modelAndView = new ModelAndView("trainers");
-
         modelAndView.addObject("trainers", trainerService.getAllTrainers());
 
         return modelAndView;
