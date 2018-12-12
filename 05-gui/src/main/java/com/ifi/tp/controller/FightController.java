@@ -25,11 +25,15 @@ public class FightController {
         int id_fighter01 = trainerService.getTrainer("Misty").getTeam().get(0).getType().getId();
         int id_fighter02 = trainerService.getTrainer("Ash").getTeam().get(0).getType().getId();
 
+        modelAndView.addObject("index", 0);
+
         modelAndView.addObject("fighter01", pokemonService.getPokemonType(id_fighter01));
         modelAndView.addObject("fighter02", pokemonService.getPokemonType(id_fighter02));
 
-//        modelAndView.addObject("trainer01", trainerService);
-//        modelAndView.addObject("trainer02", trainerService);
+        modelAndView.addObject("trainer01", trainerService.getTrainer("Misty"));
+        modelAndView.addObject("trainer02", trainerService.getTrainer("Ash"));
+
+
 
         //System.out.println(trainerService.getTrainer("Ash").getTeam().get(0));
 
