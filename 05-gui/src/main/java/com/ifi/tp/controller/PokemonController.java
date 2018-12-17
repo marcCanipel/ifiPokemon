@@ -2,8 +2,11 @@ package com.ifi.tp.controller;
 
 import com.ifi.tp.pokemonTypes.service.PokemonService;
 
+import org.jtwig.JtwigModel;
+import org.jtwig.JtwigTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -19,20 +22,17 @@ public class PokemonController {
     }
 
     @GetMapping("/pokemons")
-    public ModelAndView pokemons(@RequestParam(defaultValue = "front") String view){
-        var modelAndView = new ModelAndView("pokemons");
-
-        modelAndView.addObject("pokemons", pokemonService.listPokemonsTypes());
+    public String pokemons(ModelMap model, @RequestParam(defaultValue = "back") String view){
+        model.addAttribute("pokemons", pokemonService.listPokemonsTypes());
 
         if("front".equals(view)){
-            modelAndView.addObject("view_front", true);
+            model.addAttribute("view_front", true);
         }
         else{
-            modelAndView.addObject("view_back", true);
+            model.addAttribute("view_back", true);
         }
 
-
-        return modelAndView;
+        return "pokemons";
     }
 
 }

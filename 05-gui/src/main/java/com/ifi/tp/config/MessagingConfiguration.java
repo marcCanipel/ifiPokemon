@@ -7,8 +7,8 @@ import org.springframework.jms.support.converter.MappingJackson2MessageConverter
 import org.springframework.jms.support.converter.MessageConverter;
 import org.springframework.jms.support.converter.MessageType;
 
-@EnableJms
 @Configuration
+@EnableJms
 public class MessagingConfiguration {
 
     @Bean // Serialize message content to json using TextMessage
