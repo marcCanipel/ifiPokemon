@@ -2,56 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f82ccf8-329d-43fc-a3c5-1129675aa975" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/default/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/default/base.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/default/erreur.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/default/erreur.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fight/history.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fight/history.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fight/tableHistory.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fight/tableHistory.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/inventory.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/inventory.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/trainer/arenaFight.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/trainer/arenaFight.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/trainer/fightTrainer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/trainer/fightTrainer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/trainer/trainer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/trainer/trainer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/trainer/trainers.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/trainer/trainers.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/TrainerWebApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/TrainerWebApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/bo/HPNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/bo/HPNotification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/config/JtwigConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/config/JtwigConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/config/WebSocketConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/config/WebSocketConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/FightController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/FightController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/PokemonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/PokemonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/TrainerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/TrainerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/bo/Detail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/bo/Detail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/bo/Fight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/bo/Fight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/service/FightService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/service/FightService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/service/FightServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/service/FightServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/notification/service/NotificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/notification/service/NotificationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/notification/service/NotificationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/notification/service/NotificationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/pokemonTypes/bo/PokemonType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/pokemonTypes/bo/PokemonType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/pokemonTypes/bo/Sprites.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/pokemonTypes/bo/Sprites.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/pokemonTypes/bo/Stats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/pokemonTypes/bo/Stats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/pokemonTypes/service/PokemonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/pokemonTypes/service/PokemonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/pokemonTypes/service/PokemonServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/pokemonTypes/service/PokemonServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/shop/bo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/shop/bo/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/shop/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/shop/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/shop/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/shop/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/bo/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/bo/Pokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/bo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/bo/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/bo/Trainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/bo/Trainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/service/TrainerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/service/TrainerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/service/TrainerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/service/TrainerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/default/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/default/base.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/default/erreur.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/default/erreur.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fight/history.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fight/history.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fight/hystoryBetween.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fight/hystoryBetween.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fight/tableHistory.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fight/tableHistory.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product/inventory.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product/inventory.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/trainer/arenaFight.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/trainer/arenaFight.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/trainer/fightTrainer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/trainer/fightTrainer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/trainer/trainer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/trainer/trainer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/trainer/trainers.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/trainer/trainers.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ifi/tp/notification/service/NotificationServiceImplIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ifi/tp/notification/service/NotificationServiceImplIntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API Pokemon/ifi-PokemonTrainer" beforeDir="false" afterPath="$PROJECT_DIR$/../API Pokemon/ifi-PokemonTrainer" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,63 +13,90 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-2135372020">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="1" />
-          <entry key="java" value="11" />
-          <entry key="json" value="4" />
-          <entry key="png" value="44" />
-          <entry key="twig" value="43" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="1" />
-          <entry key="Image" value="44" />
-          <entry key="JAVA" value="11" />
-          <entry key="JSON" value="4" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Twig" value="42" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="twig" value="892" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Twig" value="892" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight/tableHistory.twig">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/config/JtwigConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="210">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight/history.twig">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="739">
+              <caret line="88" column="55" lean-forward="true" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/bo/Fight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-116">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/service/TrainerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/notification/service/NotificationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/notification/service/NotificationServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainer/fightTrainer.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -164,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/bo/Fight.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fight.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/bo/Detail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/bo/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightServiceImpl.java" />
@@ -194,14 +173,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/fight/tableHistory.twig" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fight/hystoryBetween.twig" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fight/history.twig" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -220,10 +194,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="49" />
-    <option name="y" value="25" />
-    <option name="width" value="1317" />
-    <option name="height" value="743" />
+    <option name="y" value="43" />
+    <option name="width" value="1330" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -231,8 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,6 +293,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tp" type="462c0819:PsiDirectoryNode" />
+              <item name="notification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp-05-gui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tp" type="462c0819:PsiDirectoryNode" />
+              <item name="notification" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp-05-gui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tp" type="462c0819:PsiDirectoryNode" />
               <item name="pokemonTypes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -329,7 +321,56 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tp" type="462c0819:PsiDirectoryNode" />
+              <item name="pokemonTypes" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp-05-gui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tp" type="462c0819:PsiDirectoryNode" />
+              <item name="pokemonTypes" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp-05-gui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tp" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp-05-gui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tp" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp-05-gui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tp" type="462c0819:PsiDirectoryNode" />
               <item name="trainers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp-05-gui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tp" type="462c0819:PsiDirectoryNode" />
+              <item name="trainers" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tp-05-gui" type="b2602c69:ProjectViewProjectNode" />
@@ -413,8 +454,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545081847180" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../API Pokemon/ifi-PokemonNotification" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545129250599" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../API Pokemon/ifi-PokemonFight" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -466,8 +507,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.TrainerWebApp" />
       <item itemvalue="JUnit.templates.fight in tp-05-gui" />
+      <item itemvalue="Spring Boot.TrainerWebApp" />
     </list>
     <recent_temporary>
       <list>
@@ -505,6 +546,7 @@
       <workItem from="1545080655767" duration="1254000" />
       <workItem from="1545086299597" duration="70000" />
       <workItem from="1545086394617" duration="7058000" />
+      <workItem from="1545122100114" duration="4697000" />
     </task>
     <servers />
   </component>
@@ -520,13 +562,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108222000" />
+    <option name="totallyTimeSpent" value="112919000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="49" y="25" width="1317" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26894343" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27380016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -536,7 +578,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.66527194" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6644951" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.49022803" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,133 +608,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java</url>
-          <line>103</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java</url>
-          <line>109</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java</url>
-          <line>140</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java</url>
-          <line>139</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/instinct.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/jigglypuff.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/lucky-egg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/lucky-egg-score.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/mega-ball.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/meowth.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/mew.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/mystic.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/new.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/open-pokeball.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/pawprints.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/pidgey.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/pikachu.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/pointer.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/pokeball.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/pokebag.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/pokecoins.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/pokecoins-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/icons/pokecoin.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/inventory.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#b#0;n#h4#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/nav.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/config/MessagingConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/config/JtwigConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -713,17 +633,6 @@
             <element signature="e#465#491#0#HTML" expanded="true" />
             <element signature="e#972#1021#0#HTML" expanded="true" />
             <element signature="e#733#757#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainer/fightTrainer.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -785,34 +694,6 @@
         <state relative-caret-position="-324" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/bo/Detail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/bo/Fight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/json/150.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -844,17 +725,209 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight/history.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight/tableHistory.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="390">
           <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight/history.twig">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/pokemonTypes/bo/Stats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/pokemonTypes/bo/Sprites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/config/MessagingConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/config/WebSocketConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/config/RestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/bo/Detail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/pokemonTypes/bo/PokemonType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/pokemonTypes/service/PokemonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/pokemonTypes/service/PokemonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/bo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/service/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/TrainerWebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/PokemonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="144" column="28" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/service/TrainerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/config/JtwigConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/bo/Fight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/notification/service/NotificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/notification/service/NotificationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainer/fightTrainer.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/service/TrainerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="88" column="55" lean-forward="true" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="55" />
         </state>
       </provider>
     </entry>

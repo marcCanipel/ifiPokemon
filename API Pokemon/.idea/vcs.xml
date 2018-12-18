@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ifi-PokemonFight" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ifi-PokemonNotification" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ifi-PokemonShop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ifi-PokemonTrainer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ifi-PokemonType" vcs="Git" />
+  </component>
+</project>
