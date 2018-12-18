@@ -4,7 +4,7 @@
     {% set user = "Ash" %}
 {% endif %}
 
-<h1 class="pt-md-5">Others fighters</h1>
+<h1 class="pt-md-5">Choose an opponent</h1>
 
 <div class="card-deck">
     {% for trainer in trainers %}
@@ -14,10 +14,12 @@
                     <h4 class="my-0 font-weight-normal">{{ trainer.name }}</h4>
                 </div>
                 <img class="card-img-top" src="{{ trainer.picture }}" style="" alt="">
-                <div class="card-body">
-                    <a class="btn btn-lg btn-block btn-outline-danger" href="/fight/engage/{{ user }}/{{ trainer.name }}">Fight</a>
-                    <a class="btn btn-lg btn-block btn-outline-primary" href="/fight/{{ user }}/{{ trainer.name }}">Fight History</a>
-                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a class="btn btn-lg btn-block btn-outline-danger" href="/fight/engage/{{ user }}/{{ trainer.name }}"><img src="/icons/fist.png" style="width: 35px;"/> Fight</a>
+                        <a class="btn btn-lg btn-block btn-outline-primary" href="/fight/{{ user }}/{{ trainer.name }}"><img src="/icons/gear.png" style="width: 35px;"/> Fight History</a>
+                    </li>
+                </ul>
             </div>
         </div>
     {% endfor %}

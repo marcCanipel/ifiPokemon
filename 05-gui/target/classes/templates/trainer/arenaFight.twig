@@ -1,17 +1,33 @@
 {% extends '../default/base.twig' %}
 
-{% block title %}Arena{% endblock %}
+{% block title %}Welcome in the Arena :{% endblock %}
 
 {% block row %}
 
-    <a class="btn btn-lg btn-block btn-outline-primary" href="/fight/{{ user }}">My Fight History</a>
+    <div class="row pt-md-5">
+        <div class="col-md-4" style="text-align: center"><a class="btn btn-lg btn-block btn-outline-primary" href="#opponent">The Opponent(s)</a></div>
+        <div class="col-md-4" style="text-align: center"><a class="btn btn-lg btn-block btn-outline-primary" href="#pokemonteam">My Pokemon Team</a></div>
+        <div class="col-md-4" style="text-align: center"><a class="btn btn-lg btn-block btn-outline-primary" href="#inventory">My Inventory</a></div>
+    </div>
 
-    {% render '/trainers/'~trainer.name~'/arena' with {name: 'Jtwig'} %}
+    <div id="opponent">
+        {% render '/trainers/'~trainer.name~'/arena' with {name: 'Jtwig'} %}
+    </div>
 
-    <h1 class="pt-md-5">My team</h1>
-    {% render '/team/'~trainer.name with {name: 'Jtwig'} %}
+    <div id="pokemonteam">
+        <h1 class="pt-md-5 pb-md-5">My Pokemon Team</h1>
+        {% render '/team/'~trainer.name with {name: 'Jtwig'} %}
+    </div>
 
-    <h1 class="pt-md-5">Inventory</h1>
-    {% render '/trainers/'~trainer.name~'/inventory' with {name: 'Jtwig'} %}
+    <div id="inventory">
+        <h1 class="pt-md-5 pb-md-5">Inventory </h1>
+        {% render '/trainers/'~trainer.name~'/inventory' with {name: 'Jtwig'} %}
+    </div>
+
+    <div class="row pt-md-5">
+        <div class="col-md-6" style="text-align: right; vertical-align: center"><h3>Look the history of your fight here :</h3></div>
+        <div class="col-md-6" style="text-align: left"><a class="btn btn-lg btn-block btn-outline-primary" href="/fight/{{ user }}">My Fight History</a></div>
+    </div>
+
 
 {% endblock %}

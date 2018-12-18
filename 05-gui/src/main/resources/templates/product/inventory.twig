@@ -4,14 +4,14 @@
     {% set user = "Ash" %}
 {% endif %}
 
-PokeDollard: {{ trainer.money }}$
+
 <div class="card-deck">
     {% for product in products %}
         {% if product.quantity > 0 %}
             <div class="col-md-3">
                 <div class="card shadow-sm mb-3">
                     <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">{{ product.quantity }} - {{ product.detail.name }}</h4>
+                        <h4 class="my-0 font-weight-normal">x<b>{{ product.quantity }}</b> - {{ product.detail.name }}</h4>
                     </div>
                     <img class="card-img-top img-product" src="{{ product.detail.sprite }}" style="" alt="">
                     <div class="card-body">
@@ -23,4 +23,16 @@ PokeDollard: {{ trainer.money }}$
             </div>
         {% endif %}
     {% endfor %}
+    <div class="col-md-3">
+        <div class="card shadow-sm mb-3">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal text-center"> Poke Dollard </h4>
+            </div>
+            <img class="card-img-top img-product" src="/icons/pokecoins.png" style="height: 194.59px" alt="">
+            <div class="card-body">
+                <p class="card-text text-center">You have :</p>
+                <h4 class="card-text text-center"><b>{{ trainer.money }} <img style="width: 25px;" src="/icons/pokecoin.png" alt=""></b></h4>
+            </div>
+        </div>
+    </div>
 </div>
